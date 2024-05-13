@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+      font-family: 'Montserrat', sans-serif; 
+}
+
+header{
+    border-bottom: 1px solid #E4E4E7;
+}
+
+.nav-container{
+    max-width: 162rem;
+    margin: 0 auto;
+    padding: 1.6rem;
+    //background-color: pink;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-img-text{
+    display: flex;
+    align-items: center;
+}
+.hero-img-text img{
+    height: 3.3rem;
+}
+
+.hero-text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #18181B;
+    letter-spacing: 0.07rem;
+    padding-left: 0.4rem;
+}
+
+ul{
+    display: flex;
+    font-size: 1.6rem;
+   
+}
+ul li{
+    list-style: none;
+    padding-right: 3.8rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #18181B;
+    font-weight: 500;
+}
+
+.search-input-box{
+    display: flex;
+    flex:0 0 35%;
+    align-items: center;
+    position: relative;
+    top: -0.4rem;
+}
+form{
+   // background-color: black;
+    width: 100%;
+}
+
+.search-input-box form input{
+    width: 100%;
+padding:1rem 0 1rem 4.2rem;
+border: 1px solid #D4D4D8;
+border-radius: 0.7rem;
+outline-color: #6B6EF2;
+}
+
+.search-input-box form {
+  height: 2.8rem;
+}
+.search-icon-container{
+    position: relative;
+    top: -2.8rem;
+    left: 0.2rem;
+}
+
+.search-icon, .search-icon-container{
+    height: 1.9rem;
+    display: inline-block;
+    width: 3rem;
+    border: none;
+    background-color: white;
+    fill: #71717A;
+}
+
+.right-first-container{
+    margin: 0 2rem;
+}
+.right-first-container a{
+    text-decoration: none;
+    color: #18181B;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.teach-codedamn{
+    padding-right: 2.5rem;
+}
+
+.login-btn{
+    margin-right: 0.8rem;
+}
+
+.login-btn, .sign-up{
+    border: none;
+    background-color: white;
+    border: 1px solid #D4D4D8;
+    border-radius: 0.5rem;
+    padding: 1rem 1.6rem;
+    font-size: 1.5rem;
+    color: #18181B;
+}
+
+.main-section{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    min-height: 92vh;
+    background-color: #FAFAFA;
+}
+
+.main-container{
+// background-color: black;
+ max-width: 46rem;   
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.two-lines{
+    min-width: 44rem;
+    //background-color: pink;
+    
+}
+
+.create-account{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.free-account-text {
+  background-image: linear-gradient(to right, #818cf8, #22d3ee);
+  //mix-blend-mode: color;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.below-text{
+    font-size: 1.5rem;
+    color: #676765;
+    letter-spacing: 0.02rem;
+    padding: 0.83rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.form-container{
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+    padding: 3rem 4rem;
+    border-radius: 0.5rem;
+   // padding: 2rem 2.5rem;
+}
+
+.logo-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3.5rem;
+    
+}
+.google-btn{
+    margin-right: 0.5em;
+
+}
+.google-btn img{
+    width: 2.2rem;
+    height: 2.2rem;
+    color: #71717A;
+}
+
+.github-btn img{
+   width: 2.4rem;
+    height: 2.4rem; 
+}
+.google-btn, .github-btn{
+    border: 1px solid #D4D4D8;
+    padding: 0.8rem 0rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    
+}
+
+.email-signup-text{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.or{
+    border-top: 1px solid #D4D4D8;
+    display: flex;
+    justify-content: center; 
+}
+
+.or-child{
+    font-size: 1.5rem;
+    position: relative;
+    text-align: center;
+    color: #75717A;
+    top: -0.9rem;
+    padding-inline:0.9rem ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.name, .username, .email, .password{
+    color: #3F3F4C;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.04rem;
+}
+.form-container input{
+border-radius: 0.5rem;
+border: 1px solid #D4D4D8;
+width: 100%;
+padding: 1.2rem;
+outline-color: #6B6EF2;
+margin-bottom: 0.8rem;
+}
+
+.form-container input::placeholder{
+    color: #A1A1AA;
+    letter-spacing: 0.04rem;
+    font-size: 1.4rem;
+}
+.warning-text{
+    font-size: 1.4rem;
+    color: #666666;
+    margin-bottom: 1rem;
+}
+
+.btn-blue{
+width: 100%;
+color: white;
+border: none;
+background-color: #4F46E5;
+padding: 1.1rem 0rem;
+font-size: 1.58rem;
+font-weight: 500;
+border-radius: 0.5rem;
+margin-bottom: 1.5rem;
+}
+
+.submission-text{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.03rem;
+}
+
+.submission-text a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
